@@ -16,7 +16,5 @@ import com.furquan.pharmeasy_assign1.model.PrescriptionAccessControl;
  */
 @Repository
 public abstract interface PrescriptionAccessControlRepository extends JpaRepository<PrescriptionAccessControl, Long> {
-
-    public List<PrescriptionAccessControl> findByUserId(long id);
-    
+	public List<PrescriptionAccessControl> findByUserId(long id);
 }

@@ -17,5 +17,7 @@ import com.furquan.pharmeasy_assign1.model.User;
 public interface PrescriptionService {
 
 	public Prescription createNew(User user, MultipartFile file) throws IOException;
-	
+
+	public Prescription findById(long id);
+
 }

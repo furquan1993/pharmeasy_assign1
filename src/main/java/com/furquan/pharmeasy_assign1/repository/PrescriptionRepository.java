@@ -15,5 +15,5 @@ import com.furquan.pharmeasy_assign1.model.User;
  */
 @Repository
 public abstract interface PrescriptionRepository extends JpaRepository<Prescription, Long> {
-    public User findById(long id);
+	public Prescription findById(long id);
 }
