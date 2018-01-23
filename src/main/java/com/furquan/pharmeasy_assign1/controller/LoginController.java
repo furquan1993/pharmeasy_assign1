@@ -33,11 +33,11 @@ public class LoginController {
 		return model;
 	}
 
-	@RequestMapping(method = RequestMethod.GET, path = "/user")
+	@RequestMapping(method = RequestMethod.GET, path = "/registration")
 	private ModelAndView user() {
 		ModelAndView model = new ModelAndView();
-		model.setViewName("user");
+		model.setViewName("registration");
 		return model;
 	}
-	
+
 }
